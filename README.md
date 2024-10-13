@@ -71,7 +71,7 @@ Use the following commands to create the initial database `app.db`:
 ```console
 export FLASK_APP=server/app.py
 flask db init
-flask db upgrade head
+flask db upgrade head 
 ```
 
 Now you can implement the relationships as shown in the ER Diagram:
